@@ -127,8 +127,8 @@ function App() {
                   <tbody>
                     {filteredTodos.length === 0 ? (
                       <tr>
-                        <td colSpan="4" className="text-center text-muted py-4">
-                          No active tasks
+                        <td colSpan="4" className="text-center text-light text-muted py-4">
+                          No Todos Avalaible
                         </td>
                       </tr>
                     ) : (
